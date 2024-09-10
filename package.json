@@ -1,6 +1,14 @@
 {
-  "scripts": {
-    "start": "electron ."
+  "build": {
+    "appId": "Calculadora",
+    "productName": "Calculadora",
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "Bruno-Pedroso1",
+        "repo": "https://github.com/Bruno-Pedroso1/calculadora"
+      }
+    ]
   },
   "devDependencies": {
     "electron": "^32.0.2",
@@ -8,5 +16,15 @@
   },
   "dependencies": {
     "electron-updater": "^6.3.4"
-  }
+  },
+  "scripts": {
+    "start": "electron ."
+  },
+  "name": "calculadora",
+  "version": "1.0.0",
+  "main": "main.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
