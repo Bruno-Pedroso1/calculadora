@@ -2,7 +2,7 @@ class Calculadora {
     constructor() {
         this.operacao = [];
         this.visor = window.document.getElementById("visorInfo");
-        this.ligarVisor(); // Inicia o visor imediatamente
+        this.ligarVisor(); 
     }
     
     ligarVisor() {
